@@ -1,0 +1,49 @@
+Notification {
+    color: #1E1E2E;
+    border: 1.3px solid #575268;
+     background-color: rgba(30, 30, 46 75%);
+    border-radius: 5px;
+}
+
+QLabel {
+    color: #dddddd;
+    background:transparent;
+    border-radius: 4px;
+    border-bottom: 1px dotted #b3a58f;
+    
+}
+
+#bodyLabel{
+    color: #d6d6d6;
+     padding: 1px;
+     border-radius: 4px;
+     border: 1px solid #473D22; 
+     
+}
+
+QVBoxLayout{
+    border-radius: 4px;
+     border: 1px solid #383735;
+}
+
+#closeButton {
+    border: none;
+    qproperty-icon: url(lxqt-notificationd/cancel.svg);
+    qproperty-icon-size: 24px;
+}
+
+#closeButton:hover {
+    padding: 4px;
+}
+
+#appLabel {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#summaryLabel {
+    background: transparent;
+    color: white;
+    border: none;
+    font-style: bold;
+}
