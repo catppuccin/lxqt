@@ -30,9 +30,6 @@
 <img src="assets/mocha.webp"/>
 </details>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/DonutDev/lxqt-theme/master/unknown.png"/>
-</p>
 
 ## Usage
 
