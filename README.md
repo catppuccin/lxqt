@@ -36,7 +36,7 @@
 
 ## Usage
 
-1. Download the [latest release](https://github.com/catppuccin/lxqt/releases/latest/)
+1. Download the [latest release](https://github.com/catppuccin/lxqt/releases/latest/).
 2. Unzip the file.
 3. Move the folder to `/usr/share/lxqt/themes`.
 4. Go into the "Appearance" settings, click on the "Theme" tab and select "Catppuccin".
