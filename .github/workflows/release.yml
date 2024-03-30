@@ -1,0 +1,29 @@
+name: Release Zips
+
+permissions:
+  contents: write
+
+on:
+  push:
+    tags:
+      - "*"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Just
+        run: sudo snap install --edge --classic just
+
+      - name: Build and Package
+        run: just zip
+
+      - name: Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist/*.zip
+          append_body: "See [catppuccin/lxqt#usage](https://github.com/catppuccin/lxqt#usage) for usage instructions."
